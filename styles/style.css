@@ -184,7 +184,7 @@
   font-weight: 400;
   letter-spacing: 5px;
   margin-top: -16px;
-  text-shadow: 0 5px 6px rgb(213, 131, 180);
+  text-shadow: 0 5px 6px var(--rose-shadow);
 }
 
 /* -----------------------
@@ -300,7 +300,7 @@
   position: relative;
 
   border: 2px solid var(--rose);
-  outline: 5px solid rgba(194, 120, 165, 0.25);
+  outline: 5px solid var(--rose-outline);
 
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
 }
