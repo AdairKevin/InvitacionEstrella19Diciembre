@@ -983,3 +983,59 @@ footer a:hover {
 .palabras b {
   color: var(--rose);
 }
+
+/* -----------------------
+   CONFIRMACIÓN POR WHATSAPP
+--------------------------*/
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: calc(100% - 40px);
+  max-width: 380px;
+  margin: 1.5rem auto 0;
+  padding: 1.6rem 1.2rem;
+  background: var(--ivory-paper);
+  border: 2px solid var(--gold-elegant);
+  outline: 4px solid rgba(201, 164, 76, 0.25);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.rsvp-form h3 {
+  margin: 0 0 4px;
+  font-family: var(--font-subtitulos);
+  font-weight: 400;
+  font-size: 2.1rem;
+  color: var(--rose);
+  text-align: center;
+}
+
+.rsvp-form input,
+.rsvp-form textarea {
+  font-family: var(--font-texto);
+  font-size: 1rem;
+  padding: 12px 14px;
+  border: 1px solid var(--rose-main);
+  background: #fff;
+  color: #3a3a3a;
+  resize: vertical;
+}
+
+.rsvp-form input:focus,
+.rsvp-form textarea:focus {
+  outline: 2px solid var(--gold-elegant);
+}
+
+.rsvp-btn {
+  margin-top: 4px;
+  padding: 14px;
+  border: none;
+  background: var(--gold-gradient);
+  color: #3a2a0a;
+  font-family: var(--font-titulos);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
